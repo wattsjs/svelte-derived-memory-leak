@@ -13,11 +13,9 @@
 {/if}
 
 <div style="display: flex; justify-content: center;">
-	{#key data.id}
-		{#if data.id === state.post?.id}
-			<SomeComponent {state} />
-		{:else}
-			<div>Loading...</div>
-		{/if}
-	{/key}
+	{#if data.id === state.post?.id}
+		<SomeComponent {state} />
+	{:else}
+		<div>Loading...</div>
+	{/if}
 </div>

@@ -25,5 +25,5 @@
 	<div>{state.post.body}</div>
 </div>
 
-<div>Size of newData: {Object.keys(state.newData).length}</div>
-<div>{state.newData['obj0'].title}</div>
+<div>Size of newData: {Object.keys(newData).length}</div>
+<div>{newData['obj0'].title}</div>
